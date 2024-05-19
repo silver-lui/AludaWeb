@@ -1,0 +1,18 @@
+
+.News{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.es {
+    /* height:500px; */
+    height: 90%;
+    padding: 30px 30px;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
