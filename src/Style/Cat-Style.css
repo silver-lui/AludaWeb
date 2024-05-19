@@ -1,0 +1,24 @@
+
+
+.cat-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px 20px 0px;
+}
+.cat-ul {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+
+.cat-wrapper input{
+    width: 600px;
+    height: 40px;
+    margin-left: 50px;
+    background: #e1e1e1;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    padding-left: 19px;
+}

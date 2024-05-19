@@ -1,0 +1,30 @@
+:root {
+    --c-oci: #202020;
+    --c-base: #e12b2b;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #222222;
+}
+
+body {
+    /* background: var(--c-oci); */
+    background: white;
+}
+
+#root {
+    padding-inline: 100px;
+}
+
+.cont-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    height: 75vh;
+}
