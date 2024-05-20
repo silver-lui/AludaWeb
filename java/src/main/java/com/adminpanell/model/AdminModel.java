@@ -1,41 +1,45 @@
 package com.adminpanell.model;
 
-import javax.persistance.Entity;
-import javax.persistance.Table;
-import javax.persistance.GeneratedValue;
-import javax.persistance.Id;
+import java.util.Objects;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "admin_table")
-public class AdnimModel {
+public class AdminModel {
 
     @Id
-    GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer id;
 
-    String password;
+    String password = "kaael3";
 
-    public String getPassword(){
+    public String getPassword() {
         return password;
     }
 
-    public void setPassword(String password){
-        return this.password;
-    }
+    // public void setPassword(String password) {
+    // this.password = password;
+    // }
 
-    @Override public boolean equals(Object obj){
-        if(this == obj) return true;
-        if(obj == null || getClass() != obj.getClass()) return false;
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null || getClass() != obj.getClass())
+            return false;
 
         AdminModel that = (AdminModel) obj;
-        return Object.equals(id, that.id) && Object.equals(password, that.password);
+        return Objects.equals(id, that.id) && Objects.equals(password, that.password);
     }
 
     @Override
-    public int hashCode(){
-        return Object.hash(id, password);
+    public int hashCode() {
+        return Objects.hash(id, password);
     }
-
-    
 
 }

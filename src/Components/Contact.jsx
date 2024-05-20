@@ -1,4 +1,4 @@
-import "../Style/Content-Style.css";
+import "../Style/Contact-Style.css";
 
 function Contact() {
     return (
@@ -6,7 +6,7 @@ function Contact() {
             <div className="contact-wrapper">
                 <p className="title">Fill the form to <span>contact us.</span></p>
                 <div className="inputs">
-                    <div className="rest">
+                    <div className="inp-child rest">
                         <div className="name">
                             <div className="box">
                                 <input className="f-name" required type="text" />
@@ -17,18 +17,17 @@ function Contact() {
                                 <p className="l-name-p">Last Name</p>
                             </div>
                         </div>
-                        <div className="box">
-                            <input  className="email" required type="text" />
+                        <div className="email-box">
+                            <input className="email" required type="text" />
                             <p className="email-p">Email</p>
                         </div>
                         <div className="btn">
-                            <button>Upload file</button>
-                            <button>Send Message</button>
+                            <button>Send</button>
                         </div>
                     </div>
-                    <div className="message">
-                        <p className="text-p">Message</p>
-                        <input className="text" type="text" />
+                    <div className="inp-child message">
+                        <p >Message</p>
+                        <textarea type="text" />
                     </div>
                 </div>
             </div>
