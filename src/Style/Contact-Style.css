@@ -1,0 +1,153 @@
+.contact-wrapper {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 400px;
+    padding: 50px 150px;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-wrapper .title {
+    font-size: 50px;
+}
+
+.contact-wrapper .title span {
+    color: var(--c-base);
+}
+
+.inputs {
+    /* background: rgba(255, 0, 0, 0.223); */
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp-child {
+    width: 50%;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////// */
+.name {
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name .box {
+    width: 50%;
+    position: relative;
+}
+
+.name .box input {
+    height: 30px;
+    width: 90%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    outline: none;
+    font-size: 20px;
+}
+
+.name .box p {
+    position: relative;
+    bottom: 5px;
+    font-size: 23px;
+    transition: all 0.3s;
+}
+
+.name .box input:focus+p,
+.name .box input:valid+p {
+    bottom: 30px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+.email-box {
+    width: 100%;
+    margin-block: 60px;
+    position: relative;
+}
+
+.email-box input {
+    height: 30px;
+    width: 90%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    outline: none;
+    font-size: 20px;
+}
+
+.email-box p {
+    position: relative;
+    bottom: 5px;
+    font-size: 23px;
+    transition: all 0.3s;
+}
+
+.email-box input:focus+p,
+.email-box input:valid+p {
+    bottom: 30px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+.btn{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    border: none;
+    border-radius: 3px;
+    background: #222222;
+    color: white;
+    padding: 20px 50px;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+.message{
+    position: relative;
+}
+
+.message p{
+    padding-inline: 10px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background: #f7f7f7;
+    font-size: 20px;
+}
+
+.message textarea{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    vertical-align: sub;
+    resize: none;
+    font-size: 20px;
+    padding: 15px 10px 10px 10px;
+}
