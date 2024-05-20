@@ -1,9 +1,13 @@
 
 
 .cat-wrapper{
+    z-index: 10;
+    background: white;
+    position: sticky;
+    top: 0px;
     display: flex;
     align-items: center;
-    padding: 20px 50px 20px 0px;
+    padding: 10px 50px 10px 0px;
 }
 .cat-ul {
     width: 100%;

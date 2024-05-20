@@ -11,39 +11,39 @@ function News() {
             <ul className="news">
                 <li className="ess">
                     <a href="#">
+                        <img className="news-component" src={img_1} alt="" />
                         <p className="date">May 22, 2028</p>
-                        <img className="news_component" src={img_1} alt="" />
                         <p className="title">იყო და არა იყო რა იყო ერთი გაჭირვებული fრონტენდ დეველოპერი</p>
                     </a>
                 </li>
                 <li className="ess">
                     <a href="#">
+                        <img className="news-component" src={img_2} alt="" />
                         <p className="date">May 22, 2028</p>
-                        <img className="news_component" src={img_2} alt="" />
                         <p className="title">იყო და არა იყო რა</p>
                     </a>
                 </li>
                 <li className="ess">
                     <a href="#">
+                        <img className="news-component" src={img_3} alt="" />
                         <p className="date">May 22, 2028</p>
-                        <img className="news_component" src={img_3} alt="" />
                         <p className="title">იყო და არა იყო რა</p>
                     </a>
                 </li>
                 <li className="ess">
                     <a href="#">
+                        <img className="news-component" src={img_4} alt="" />
                         <p className="date">May 22, 2028</p>
-                        <img className="news_component" src={img_4} alt="" />
                         <p className="title">იყო და არა იყო რა</p>
                     </a>
                 </li>
                 <li className="ess">
                     <a href="#">
+                        <img className="news-component" src={img_5} alt="" />
                         <p className="date">May 22, 2028</p>
-                        <img className="news_component" src={img_5} alt="" />
                         <p className="title">იყო და არა იყო რა</p>
                     </a>
-                </li>
+                </li> 
             </ul>
         </div>
     );

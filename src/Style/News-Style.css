@@ -1,40 +1,77 @@
 .container{
+    background: #f0f0f0;
     height: 100%;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    overflow-y: scroll;
+    width: 100%;
+    flex: 0.25 0;
+    padding-block: 15px;
 }
 
-.News{
+.container .news{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+.container .news::-webkit-scrollbar{
+    width: 10px;
+} 
+
+.news .ess{
+    background: #f0f0f0;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+
+.news .ess img{
+    border-radius: 5px 5px 0 0 ;
+    height: 20vh;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    object-fit: cover;
+}
+.news .ess .date{
+    padding-left: 10px;
+}
+
+.news .ess .title{
+    padding: 3px;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+/* .news{
     align-items: center;
     white-space: normal;
-    height: 80%;
-    padding: 30px 30px;
+    height: 100%;
+    width: 100%;
+    padding: 30px 300px;
     background: #f7f7f7;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 1;
+} */
+
+/* .ess{
+    width: 100%;
+}
+.ess a{
+    height: 200px;
+    width: 100%;
+    position: relative;
 }
 
-.ess{
-    background: #f7f7f7;
+.news-component{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
 }
 
-.news_component{
-    width: 70%;
-    height: 80%;
-}
-
-.container ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-.News li {
-    margin-bottom: 50px;
-}
 
 .container img.news_component {
     display: block;
@@ -53,4 +90,4 @@
 
 .container::-webkit-scrollbar { 
     display: none;
-}
+} */
