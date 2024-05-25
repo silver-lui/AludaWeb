@@ -1,3 +1,5 @@
+
+
 :root {
     --c-oci: #202020;
     --c-base: #e12b2b;
@@ -15,6 +17,7 @@
 body {
     padding-top: 20px;
     background: white;
+    overflow-x: hidden;
 }
 
 #root {
