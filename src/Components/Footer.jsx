@@ -13,6 +13,10 @@ function Footer(){
                     impedit voluptatem totam sit omnis?
                 </p>
             </div>
+
+            <div className="activities_main">
+                <h6 className="activities_title"></h6>
+            </div>
         </div>
     );
 }
