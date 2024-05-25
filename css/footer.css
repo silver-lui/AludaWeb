@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Lily+Script+One);
+
+:root {
+  --c-1: #000000;
+  --c-2: #cfcbcb;
+}
+
+.Footer{
+    width: 100vw;
+    height: 400px;
+    transform: translateX(-100px);
+    background-color: #222222;
+    padding: 40px 100px; 
+}
+
+.bio_small{
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    /* line-height: 1;
+    padding: 40px 0 10px 0; */
+    width: 320px;
+}
+
+.bio_text{
+    padding: 10px 0 0 0;
+    font-size: 18px;
+    font-family: fantasy ;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #353535;
+    text-align: start;
+}
+
+.bio_title{
+    font-size: 40px;
+    text-align:start;
+    color: var(--c-base);
+    text-shadow: 1px 1px 2px #353535;
+    font-family: cursive;
+    border-bottom: 2px solid #ffffff;
+}
