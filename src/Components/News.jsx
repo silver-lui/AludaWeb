@@ -8,42 +8,52 @@ import img_5 from "../assets/img_6.jpg";
 function News() {
     return (
         <div className="container">
-            <ul className="news">
-                <li className="ess">
+            <ul>
+                <li>
                     <a href="#">
-                        <img className="news-component" src={img_1} alt="" />
-                        <p className="date">May 22, 2028</p>
-                        <p className="title">იყო და არა იყო რა იყო ერთი გაჭირვებული fრონტენდ დეველოპერი</p>
+                        <img src={img_1} alt="news-1" />
+                        <div className="text">
+                            {/* <p className="title">asd</p>
+                            <p className="des">asdasdasdasdasdasdasdasdas</p> */}
+                        </div>
                     </a>
                 </li>
-                <li className="ess">
+                <li>
                     <a href="#">
-                        <img className="news-component" src={img_2} alt="" />
-                        <p className="date">May 22, 2028</p>
-                        <p className="title">იყო და არა იყო რა</p>
+                        <img src={img_2} alt="news-1" />
+                        <div className="text">
+                            {/* <p className="title">asd</p>
+                            <p className="des">asdasdasdasdasdasdasdasdas</p> */}
+                        </div>
                     </a>
                 </li>
-                <li className="ess">
+                <li>
                     <a href="#">
-                        <img className="news-component" src={img_3} alt="" />
-                        <p className="date">May 22, 2028</p>
-                        <p className="title">იყო და არა იყო რა</p>
+                        <img src={img_3} alt="news-1" />
+                        <div className="text">
+                            {/* <p className="title">asd</p>
+                            <p className="des">asdasdasdasdasdasdasdasdas</p> */}
+                        </div>
                     </a>
                 </li>
-                <li className="ess">
+                <li>
                     <a href="#">
-                        <img className="news-component" src={img_4} alt="" />
-                        <p className="date">May 22, 2028</p>
-                        <p className="title">იყო და არა იყო რა</p>
+                        <img src={img_4} alt="news-1" />
+                        <div className="text">
+                            {/* <p className="title">asd</p>
+                            <p className="des">asdasdasdasdasdasdasdasdas</p> */}
+                        </div>
                     </a>
                 </li>
-                <li className="ess">
+                <li>
                     <a href="#">
-                        <img className="news-component" src={img_5} alt="" />
-                        <p className="date">May 22, 2028</p>
-                        <p className="title">იყო და არა იყო რა</p>
+                        <img src={img_5} alt="news-1" />
+                        <div className="text">
+                            {/* <p className="title">asd</p>
+                            <p className="des">asdasdasdasdasdasdasdasdas</p> */}
+                        </div>
                     </a>
-                </li> 
+                </li>
             </ul>
         </div>
     );

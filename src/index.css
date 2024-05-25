@@ -15,34 +15,23 @@
 }
 
 body {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     background: white;
     overflow-x: hidden;
 }
 
 #root {
-    padding-inline: 100px;
+    padding-inline: 200px;
 }
 
 .cont-wrapper {
-    height: 75vh;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+    height: 100%;
+    width: 100%;
+    /* background: red; */
 }
 
 img{
     width: 40px;
     height: 40px;
+    filter: grayscale(100%);
 }
-/* 
-
-.title{
-    color: rgb(0, 0, 0);
-}
-
-.autor{
-    color: aliceblue;
-} */

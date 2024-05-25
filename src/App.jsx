@@ -9,6 +9,7 @@ function App() {
     <>
       <Category></Category>
       <Content></Content>
+      <News></News>
       <Contact></Contact>
       <Footer></Footer>
     </>
