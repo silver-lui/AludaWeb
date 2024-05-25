@@ -13,13 +13,14 @@
     padding: 40px 100px;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .bio_small{
     letter-spacing: 1px;
     font-family: sans-serif;
-    /* line-height: 1;
-    padding: 40px 0 10px 0; */
+    /* line-height: 1; */
+    padding: 0 0 10px 0;
     width: 320px;
 }
 
@@ -43,7 +44,7 @@
 
 .activites_main{
     height: 100%;
-    width: 77%;
+    width: 100%;
 }
 
 .act-wrapper{
