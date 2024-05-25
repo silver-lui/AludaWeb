@@ -8,9 +8,11 @@
 .Footer{
     width: 100vw;
     height: 400px;
-    transform: translateX(-100px);
+    transform: translateX(-200px);
     background-color: #222222;
-    padding: 40px 100px; 
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .bio_small{
@@ -37,4 +39,95 @@
     text-shadow: 1px 1px 2px #353535;
     font-family: cursive;
     border-bottom: 2px solid #ffffff;
+}
+
+.activites_main{
+    height: 100%;
+    width: 77%;
+}
+
+.act-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 2px solid var(--c-base);
+}
+
+.act-wrapper img{
+    width: 100px;
+    height: 50px;
+}
+
+.activites_main_a{
+    width: 100%;
+    align-items: start;
+}
+
+.activites_main_b{
+    width: 100%;
+    align-items: end;
+}
+
+.activites_main li{
+    gap: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.activites_main_a p{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.activites_main_b p{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.activites_title{
+    width: 100%;
+    font-size: 40px;
+    text-align: right;
+    color: var(--c-base);
+    text-shadow: 1px 1px 2px #353535;
+    font-family: cursive;
+    border-bottom: 2px solid #ffffff;
+}
+
+.contacts_main{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+.inkdin{
+    position: absolute;
+    right: 20%;
+}
+
+.facebook{
+    position: absolute;
+    right: 15%;
+    transform: translateX(-85%);
+}
+
+.instagram{
+    position: absolute;
+    right: 10%;
+    transform: translateX(-160%);
+}
+
+.gmail p{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.phonenumber p{
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 20px;
+    color: #ffffff;
 }
