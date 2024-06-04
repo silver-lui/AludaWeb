@@ -3,7 +3,6 @@
 .Footer{
     width: 100vw;
     height: 400px;
-    transform: translateX(-200px);
     background-color: #222222;
     padding: 40px 100px;
     display: flex;
@@ -52,6 +51,10 @@
     width: 100%;
 }
 
+.activites_main_a span{
+    color: #b0b0b0;
+}
+
 .activites_main_b{
     width: 100%;
 }
@@ -78,37 +81,18 @@
 
 .contacts_main{
     width: 100%;
+    padding: 15px 0;
     display: flex;
-    padding: 10px 0;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.inkdin{
-    position: absolute;
-    right: 20%;
-}
-
-.facebook{
-    position: absolute;
-    right: 15%;
-    transform: translateX(-85%);
-}
-
-.instagram{
-    position: absolute;
-    right: 10%;
-    transform: translateX(-160%);
-}
-
-.gmail p{
-    padding-top: 10px;
+.contacts_main p{
+    color: white;
     font-size: 20px;
-    color: #ffffff;
 }
 
-.phonenumber p{
-    padding-top: 10px;
-    padding-left: 40px;
-    font-size: 20px;
-    color: #ffffff;
+.socials{
+    display: flex;
+    gap: 10px;
 }

@@ -29,15 +29,27 @@ function Footer(){
                     <ul className="activites_main_a">
                         <li>
                             <img src={img_1} alt="" />
-                            <p>აქტივობა რომელიც იყო 2018</p>
+                            <p>
+                                <span>2018/05/24</span>
+                                <br />
+                                kiabara
+                            </p>
                         </li>
                         <li>
                             <img src={img_2} alt="" />
-                            <p>აქტივობა რომელიც იყო 2019</p>
+                            <p>
+                                <span>2019/09/90</span>
+                                <br />
+                                eseciyos
+                            </p>
                         </li>
                         <li>
                             <img src={img_3} alt="" />
-                            <p>აქტივობა რომელიც იყო 2020</p>
+                            <p>
+                                <span>2020/02/22</span>
+                                <br />
+                                asdasdasddasdasddasasd
+                            </p>
                         </li>
                     </ul>
                     <ul className="activites_main_b">
