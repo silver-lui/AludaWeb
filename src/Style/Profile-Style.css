@@ -1,0 +1,27 @@
+
+
+.Pro-wrapper{
+    text-align: center;
+    padding-inline: 100px;
+    margin-block: 70px 100px;
+}
+
+.Pro-wrapper img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+
+.Pro-wrapper h1 span{
+    color: var(--c-base);
+}
+
+.Pro-wrapper .dow-docx{
+    background: #101010;
+    border: none;
+    margin-top: 50px;
+    padding: 20px 45px;
+    color: white;
+    border-radius: 5px;
+}

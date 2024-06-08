@@ -36,9 +36,6 @@ function Category() {
                     </div> */}
                 </li>
                 <li>
-                    <a href="/blogs">ბლოგი</a>
-                </li>
-                <li>
                     <a href="/history">ისტორიები</a>
                 </li>
             </ul>

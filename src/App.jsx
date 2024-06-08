@@ -1,17 +1,21 @@
 import Category from "./Components/Category";
-import Contact from "./Components/Contact";
-import News from "./Components/News";
-import Content from "./Content";
-import Footer from "./Components/Footer"; 
+import Mtavari from "./Components/Mtavari";
+import Footer from "./Components/Footer";
+import Profile from "./Components/Profile";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Category></Category>
-      <Content></Content>
-      <News></News>
-      <Contact></Contact>
-      <Footer></Footer>
+      <BrowserRouter>
+        <Category></Category>
+        <Routes>
+          <Route path="/" element={<Mtavari></Mtavari>}></Route>
+          <Route path="/profile" element={<Profile></Profile>}></Route>
+        </Routes>
+        <Footer></Footer>
+      </BrowserRouter>
     </>
   );
 }
