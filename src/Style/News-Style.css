@@ -3,7 +3,7 @@
     /* left: -200px; */
     /* transform: translateX(-200px); */
     width: 100vw;
-    height: 300px;
+    height: 200px;
     /* background: red; */
     /* background: #f7f7f7;  */
     display: flex;
@@ -27,7 +27,7 @@
 .container ul li{
     height: 100%;
     width: 100px;
-    min-width: 400px;
+    min-width: 300px;
     color:#f7f7f7;
 }
 

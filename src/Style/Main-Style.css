@@ -40,6 +40,7 @@
 }
 
 .main-wrapper img {
+    object-fit: cover;
     width: 80%;
     height: 80vh;
 }
@@ -118,3 +119,26 @@
     z-index: 2;
 }
 */
+
+.news{
+    flex: .3;
+    width: 300px;
+    margin-right: 40px;
+}
+
+.single-news{
+    display: flex;
+    margin-block: 10px;
+}
+
+.single-news img {
+    --S-img: 100px;
+    object-fit: cover;
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.single-news .news-text{
+    color: #646464;
+}

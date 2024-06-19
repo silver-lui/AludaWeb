@@ -4,11 +4,13 @@ import Footer from "./Components/Footer";
 import Profile from "./Components/Profile";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import News from "./Components/News";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <News></News>
         <Category></Category>
         <Routes>
           <Route path="/" element={<Mtavari></Mtavari>}></Route>

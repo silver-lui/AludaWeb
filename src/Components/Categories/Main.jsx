@@ -5,6 +5,7 @@ import img_3 from "../../assets/news/img_3.jpg";
 import img_4 from "../../assets/news/img_4.jpg";
 import img_5 from "../../assets/news/img_5.jpg";
 
+
 function Main() {
     const images = [img_1, img_2, img_3, img_4, img_5];
     
@@ -70,6 +71,52 @@ function Main() {
             <div className="arr right" onClick={() => MainNews("R")}>
                 &#10095;
             </div>
+            <ul className="news">
+                <li className="single-news">
+                    <img src={img_1} alt="" />
+                    <div className="S-N-text-W">
+                        <p className="S-N-time">March 14,2018</p>
+                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    </div>
+                </li>
+                <li className="single-news">
+                    <img src={img_2} alt="" />
+                    <div className="S-N-text-W">
+                        <p className="S-N-time">March 14,2018</p>
+                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    </div>
+                </li>
+                <li className="single-news">
+                    <img src={img_3} alt="" />
+                    <div className="S-N-text-W">
+                        <p className="S-N-time">March 14,2018</p>
+                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    </div>
+                </li>
+                {/* ////////////////////////////////// */}
+                {/* ////////////////////////////////// */}
+                <li className="single-news">
+                    <img src={img_4} alt="" />
+                    <div className="S-N-text-W">
+                        <p className="S-N-time">March 14,2018</p>
+                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    </div>
+                </li>
+                <li className="single-news">
+                    <img src={img_5} alt="" />
+                    <div className="S-N-text-W">
+                        <p className="S-N-time">March 14,2018</p>
+                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    </div>
+                </li>
+                <li className="single-news">
+                    <img src={img_1} alt="" />
+                    <div className="S-N-text-W">
+                        <p className="S-N-time">March 14,2018</p>
+                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    </div>
+                </li>
+            </ul>
         </div>
     );
 }

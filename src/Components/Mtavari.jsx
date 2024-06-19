@@ -10,7 +10,6 @@ function Mtavari() {
     return (
         <>
         <Main></Main>
-        <News></News>
         <Contact></Contact>
         </>
     );

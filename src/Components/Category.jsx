@@ -1,9 +1,13 @@
 import "../Style/Cat-Style.css";
+import profimg from "../assets/aluda.png";
 
 function Category() {
     return (
         <div className="cat-wrapper">
             <ul className="cat-ul">
+                <li className="profimg">
+                    <img src={profimg} alt="" />
+                </li>
                 <li>
                     <a href="/">მთავარი</a>
                 </li>
