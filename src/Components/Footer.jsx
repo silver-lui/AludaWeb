@@ -53,15 +53,15 @@ function Footer(){
                         </li>
                     </ul>
                     <ul className="activites_main_b">
-                        <li>
+                        <li data-user-template>
                             <img src={img_4} alt="" />
                             <p>აქტივობა რომელიც იყო 2021</p>
                         </li>
-                        <li>
+                        <li data-user-template>
                             <img src={img_5} alt="" />
                             <p>აქტივობა რომელიც იყო 2022</p>
                         </li>
-                        <li>
+                        <li data-user-template>
                             <img src={img_6} alt="" />
                             <p>აქტივობა რომელიც იყო 2023</p>
                         </li>

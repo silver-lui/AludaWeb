@@ -49,12 +49,12 @@ function Main() {
             </div>
             <div className="main-wrapper">
                 <div className="paragrap-wrapper">
-                    <div className="text-warpper">
-                        <p className="tags">politics, georgia</p>
-                        <p className="title">
+                    <div className="text-warpper" id="main">
+                        <p className="tags" id="content">politics, georgia</p>
+                        <p className="title" id="content">
                             Protest of Georgians against the Russian law
                         </p>
-                        <p className="autor">by me</p>
+                        <p className="autor" id="content">by me</p>
                     </div>
                 </div>
                 <img src={teming} alt="image" id="MN" />
@@ -74,46 +74,46 @@ function Main() {
             <ul className="news">
                 <li className="single-news">
                     <img src={img_1} alt="" />
-                    <div className="S-N-text-W">
-                        <p className="S-N-time">March 14,2018</p>
-                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    <div className="S-N-text-W" id="main">
+                        <p className="S-N-time" id="content">March 14,2018</p>
+                        <p className="news-text" id="content">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
                     </div>
                 </li>
                 <li className="single-news">
                     <img src={img_2} alt="" />
-                    <div className="S-N-text-W">
-                        <p className="S-N-time">March 14,2018</p>
-                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    <div className="S-N-text-W" id="main">
+                        <p className="S-N-time" id="content">March 14,2018</p>
+                        <p className="news-text" id="content">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
                     </div>
                 </li>
                 <li className="single-news">
                     <img src={img_3} alt="" />
-                    <div className="S-N-text-W">
-                        <p className="S-N-time">March 14,2018</p>
-                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    <div className="S-N-text-W" id="main">
+                        <p className="S-N-time" id="content">March 14,2018</p>
+                        <p className="news-text" id="content">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
                     </div>
                 </li>
                 {/* ////////////////////////////////// */}
                 {/* ////////////////////////////////// */}
                 <li className="single-news">
                     <img src={img_4} alt="" />
-                    <div className="S-N-text-W">
-                        <p className="S-N-time">March 14,2018</p>
-                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    <div className="S-N-text-W" id="main">
+                        <p className="S-N-time" id="content">March 14,2018</p>
+                        <p className="news-text" id="content">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
                     </div>
                 </li>
                 <li className="single-news">
                     <img src={img_5} alt="" />
-                    <div className="S-N-text-W">
-                        <p className="S-N-time">March 14,2018</p>
-                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    <div className="S-N-text-W" id="main">
+                        <p className="S-N-time" id="content">March 14,2018</p>
+                        <p className="news-text" id="content">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
                     </div>
                 </li>
                 <li className="single-news">
                     <img src={img_1} alt="" />
-                    <div className="S-N-text-W">
-                        <p className="S-N-time">March 14,2018</p>
-                        <p className="news-text">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
+                    <div className="S-N-text-W" id="main">
+                        <p className="S-N-time" id="content">March 14,2018</p>
+                        <p className="news-text" id="content">RAMEASDASDASD Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptate.</p>
                     </div>
                 </li>
             </ul>

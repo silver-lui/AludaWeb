@@ -35,6 +35,23 @@
     border-radius: 50%;
 }
 
+.search-results {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.result-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
 
 /* .cat-wrapper {
     z-index: 10;

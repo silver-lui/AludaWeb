@@ -8,8 +8,8 @@ import img_5 from "../assets/img_6.jpg";
 function News() {
     return (
         <div className="container">
-            <ul>
-                <li>
+            <ul id="news">
+                <li id="content">
                     <a href="#">
                         <img src={img_1} alt="news-1" />
                         <div className="text">
@@ -18,7 +18,7 @@ function News() {
                         </div>
                     </a>
                 </li>
-                <li>
+                <li id="content">
                     <a href="#">
                         <img src={img_2} alt="news-1" />
                         <div className="text">
@@ -27,7 +27,7 @@ function News() {
                         </div>
                     </a>
                 </li>
-                <li>
+                <li id="content">
                     <a href="#">
                         <img src={img_3} alt="news-1" />
                         <div className="text">
@@ -36,7 +36,7 @@ function News() {
                         </div>
                     </a>
                 </li>
-                <li>
+                <li id="content">
                     <a href="#">
                         <img src={img_4} alt="news-1" />
                         <div className="text">
@@ -45,7 +45,7 @@ function News() {
                         </div>
                     </a>
                 </li>
-                <li>
+                <li id="content">
                     <a href="#">
                         <img src={img_5} alt="news-1" />
                         <div className="text">
